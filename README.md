@@ -1,2 +1,7 @@
 # Multi-Modal-Parkinson-s-Detection
-Parkinson’s disease noticeably affects speech, gait, and handwriting, leading to changes in voice quality, walking patterns, and fine motor control. This project analyzes all three modalities using machine learning and deep learning methods, and combines their results through late fusion to improve the accuracy of Parkinson’s disease detection.
+Parkinson’s disease often leads to distinct changes in speech, gait, and handwriting, affecting voice clarity, walking stability, and fine motor skills. This project investigates each of these key modalities by extracting relevant features and applying both machine learning and deep learning techniques to classify Parkinson’s disease. For speech, the analysis includes acoustic features and spectrogram-based models; for gait, temporal and variability features are derived from ground reaction force data; and for handwriting, spatial and kinematic characteristics are examined. The results from each modality are then combined using a late fusion approach, which integrates the prediction probabilities to enhance overall detection accuracy. This multi-modal strategy aims to provide a more comprehensive and reliable method for identifying Parkinson’s disease.
+
+#Datasets
+- Speech - [Prior Speech Dataset](https://figshare.com/articles/dataset/Voice_Samples_for_Patients_with_Parkinson_s_Disease_and_Healthy_Controls/23849127)
+- Gait - [Physionet Gait Dataset](https://physionet.org/content/gaitpdb/1.0.0/)
+- Handwriting - [Kaggle Dataset](https://www.kaggle.com/datasets/meherintasfia/pd-hw-data)
